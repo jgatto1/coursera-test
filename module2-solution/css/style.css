@@ -1,0 +1,104 @@
+	h1{
+		font-family: Arial;
+		color:white;
+		margin: 30px 10px 20px 10px;
+		font-size: 12px;
+		text-align: justify;
+	}
+	h2{
+		color: white;
+		text-align: right;
+		margin: 5px 5px 5px 5px;
+	}
+
+
+	@media screen and (min-width: 992px) {
+		section {
+
+			align-self:center;
+			border: 1px solid black;
+			float: left;
+			background-color: #222222;
+			margin: 5px 5px 5px 5px;
+			width: 30%
+		}
+		span.box1 {
+			background-color: pink;
+		}
+
+		span.box2 {
+			background-color: red;
+		}
+		span.box3 {
+			background-color: yellow;
+		}
+		span{
+			font-size: 20px;
+			background-color: pink;
+			float: right;
+			padding-left: 30px;
+			padding-right: 30px;
+			margin: 0px 0px 5px 40px;
+			text-align: right;
+
+		}
+	}
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		section.paquete1, section.paquete2 {
+			align-self:center;
+			border: 1px solid black;
+			float: left;
+			background-color: #222222;
+			margin: 1% 1% 1% 1%;
+			width: 30%
+		}
+		section.paquete3 {
+			border: 1px solid black;
+			float: left;
+			background-color: #222222;
+			float: left;
+			margin-left: 1%;
+			margin-right: 10px;
+			width: 62.25%;
+		}
+		span.box1 {
+			float: right;
+			background-color: pink;
+		}
+
+		span.box2 {
+			float: right;
+			background-color: red;
+		}
+
+		span.box3 {
+			float: right;
+			background-color: yellow;
+		}
+
+	}
+
+	@media screen and (max-width: 767px) {
+		section{
+			align-self:center;
+			border: 1px solid black;
+			float: left;
+			background-color: black;
+			margin: 1% 1% 1% 1%;
+			width: 94%
+		}
+		span.box1 {
+			float: right;
+			background-color: pink;
+		}
+
+		span.box2 {
+			float: right;
+			background-color: red;
+		}
+
+		span.box3 {
+			float: right;
+			background-color: yellow;
+		}
+	}
