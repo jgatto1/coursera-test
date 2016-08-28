@@ -10,7 +10,11 @@
 		text-align: right;
 		margin: 5px 5px 5px 5px;
 	}
-
+	h3{
+		font-family: Arial;
+		font-size: 30px;
+		text-align: center;
+	}
 
 	@media screen and (min-width: 992px) {
 		section {
